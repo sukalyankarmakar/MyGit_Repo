@@ -25,3 +25,6 @@ ans = _sum(arr)
   
 # display sum 
 print ('Sum of the array is ', ans) 
+
+# We get sum of array element
+# END
