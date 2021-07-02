@@ -1,0 +1,37 @@
+# QUIZ GAME--MINI PROJECTS:
+
+print("Welcome to computer quiz game :)")
+print("Do you want to play? ")
+
+answer=str(input())
+score=0
+if answer.lower()=="yes":
+    print("Let's Play!...")
+
+    print("What is your favourite sports? ")
+    answer=input().lower()
+    if answer=="football":
+        print("Correct :)")
+        score +=1
+    else:
+        print("Incorrect!")
+    
+    print("What is your favourite food? ")
+    answer=input().lower()
+    if answer=="chicken":
+        print("Correct :)")
+        score +=1
+    else:
+        print("Incorrect!")
+    
+    print("What is your favourite flower? ")
+    answer=input().lower()
+    if answer=="rose":
+        print("Correct :)")
+        score +=1
+    else:
+        print("Incorrect!")
+else:
+    print("Okay! That's fine...")
+    quit()
+print("Your score is "+ str(score) + " :)")
